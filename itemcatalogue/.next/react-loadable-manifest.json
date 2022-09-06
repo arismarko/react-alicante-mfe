@@ -1,0 +1,22 @@
+{
+  "../async-pages/app.js -> home/nav": {
+    "id": "../async-pages/app.js -> home/nav",
+    "files": []
+  },
+  "_app.js -> ../async-pages/app": {
+    "id": "_app.js -> ../async-pages/app",
+    "files": [
+      "static/chunks/async-pages_app_js.js"
+    ]
+  },
+  "index.js -> home/home": {
+    "id": "index.js -> home/home",
+    "files": []
+  },
+  "itemcatalogue.js -> ../async-pages/itemcatalogue": {
+    "id": "itemcatalogue.js -> ../async-pages/itemcatalogue",
+    "files": [
+      "static/chunks/async-pages_itemcatalogue_js.js"
+    ]
+  }
+}

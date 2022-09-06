@@ -1,0 +1,12 @@
+{
+  "../async-pages/_app.js -> home/nav": {
+    "id": "../async-pages/_app.js -> home/nav",
+    "files": []
+  },
+  "_app.js -> ../async-pages/_app": {
+    "id": "_app.js -> ../async-pages/_app",
+    "files": [
+      "static/chunks/async-pages__app_js.js"
+    ]
+  }
+}

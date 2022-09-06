@@ -1,0 +1,22 @@
+{
+  "name": "itemcatalogue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production next start"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-ssr": "0.2.0-rc.1",
+    "@prisma/client": "^4.3.1",
+    "lodash": "4.17.21",
+    "next": "12.2.2",
+    "next-compose-plugins": "^2.2.1",
+    "nextjs-shared": "file:../shared",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "webpack": "5.72.1",
+    "webpack-merge": "^5.8.0"
+  }
+}

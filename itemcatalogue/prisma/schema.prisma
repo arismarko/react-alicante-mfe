@@ -1,0 +1,23 @@
+datasource db {
+  provider = "postgres"
+  url      = "postgres://bfzutkcrzzeyqi:bc6c72d2c7866c756f956ba6f54eb827e3ecbed9dac6c56a270aa1b301732bb9@ec2-3-226-163-72.compute-1.amazonaws.com:5432/d9pf3ighsogt97"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Store {
+  id        String     @default(cuid()) @id
+  title     String
+  location  String?
+  products  Product[]
+}
+
+model Product {
+  id            String       @default(cuid()) @id
+  name          String?
+  createdAt     DateTime  @default(now()) @map(name: "created_at")
+  updatedAt     DateTime  @updatedAt @map(name: "updated_at")
+  stores        Store[]
+}
