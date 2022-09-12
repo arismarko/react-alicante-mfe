@@ -1,7 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
+import {PrismaClient} from '@prisma/client';
 
-const Orders = props => (
+const Orders = props => {
+  console.log(props);
+  return (
   <div>
     <Head>
       <title>Orders</title>
@@ -9,8 +12,13 @@ const Orders = props => (
     </Head>
 
     <div className="hero">
-      <h1>Orders Page</h1>
-      <h3 className="title">This is a federated page owned by localhost:3002</h3>
+      <h1>Orders</h1>
+      
+      <p>This is a federated page owned by localhost:3002 Orders</p> 
+
+        Data from federated getStaticProps
+
+      <pre>{JSON.stringify(props, null, 2)}</pre>
     </div>
     <style jsx>{`
       .hero {
@@ -30,9 +38,18 @@ const Orders = props => (
       }
     `}</style>
   </div>
-);
-Orders.getInitialProps = async () => {
-  const swapi = await fetch('https://swapi.dev/api/people/1').then(res => res.json());
-  return swapi;
+)};
+
+export const getStaticProps = async () => {
+  const prisma = new PrismaClient();
+  const orders = await prisma.order.findMany();
+
+  console.log(orders);
+
+  return {
+    props: { orders },
+    revalidate: 10,
+  };
 };
+
 export default Orders;

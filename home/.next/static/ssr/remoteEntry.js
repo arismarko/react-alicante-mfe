@@ -61,7 +61,7 @@ var init = (shareScope, initScope) => {
 // This exports getters to disallow modifications
 __webpack_require__.d(exports, {
 	get: () => (get),
-	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"home","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./nav":[{"chunks":["static/chunks/components_nav_js-fed.js"],"sharedModules":[]}],"./home":[{"chunks":["static/chunks/async-pages_index_js-fed.js"],"sharedModules":[]}],"./pages-map":[{"chunks":["static/chunks/pages-map_js-fed.js"],"sharedModules":[]}]},"remoteModules":{"itemcatalogue/title":"webpack/container/remote/itemcatalogue/title"}}],"loadable":{"../async-pages/index.js -> itemcatalogue/title":{"id":"../async-pages/index.js -> itemcatalogue/title","files":[]},"../components/nav.js -> ./helloWorld":{"id":"../components/nav.js -> ./helloWorld","files":["static/chunks/components_helloWorld_js-fed.js"]}}}), hash: ()=>("6bcfbbaa1a95b4680b7eaf1deda17c7e")
+	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"home","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./nav":[{"chunks":["static/chunks/components_nav_js-fed.js"],"sharedModules":[]}],"./home":[{"chunks":["static/chunks/async-pages_index_js-fed.js"],"sharedModules":[]}],"./pages-map":[{"chunks":["static/chunks/pages-map_js-fed.js"],"sharedModules":[]}]},"remoteModules":{"itemcatalogue/title":"webpack/container/remote/itemcatalogue/title"}}],"loadable":{"../async-pages/index.js -> itemcatalogue/title":{"id":"../async-pages/index.js -> itemcatalogue/title","files":[]}}}), hash: ()=>("d49a9f37f013287bdf9d9962886ec744")
 });
 
 /***/ }),
@@ -622,14 +622,13 @@ module.exports = Promise.resolve("itemcatalogue@http://localhost:3000/_next/stat
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
 /******/ 			"webpack/sharing/consume/default/next/link": () => (loadSingleton("default", "next/link")),
-/******/ 			"webpack/sharing/consume/default/next/dynamic": () => (loadSingleton("default", "next/dynamic")),
-/******/ 			"webpack/sharing/consume/default/next/head": () => (loadSingleton("default", "next/head"))
+/******/ 			"webpack/sharing/consume/default/next/head": () => (loadSingleton("default", "next/head")),
+/******/ 			"webpack/sharing/consume/default/next/dynamic": () => (loadSingleton("default", "next/dynamic"))
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
 /******/ 			"components_nav_js": [
-/******/ 				"webpack/sharing/consume/default/next/link",
-/******/ 				"webpack/sharing/consume/default/next/dynamic"
+/******/ 				"webpack/sharing/consume/default/next/link"
 /******/ 			],
 /******/ 			"async-pages_index_js": [
 /******/ 				"webpack/sharing/consume/default/next/head",
@@ -801,14 +800,13 @@ module.exports = Promise.resolve("itemcatalogue@http://localhost:3000/_next/stat
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
 /******/ 			"webpack/sharing/consume/default/next/link": () => (loadSingleton("default", "next/link")),
-/******/ 			"webpack/sharing/consume/default/next/dynamic": () => (loadSingleton("default", "next/dynamic")),
-/******/ 			"webpack/sharing/consume/default/next/head": () => (loadSingleton("default", "next/head"))
+/******/ 			"webpack/sharing/consume/default/next/head": () => (loadSingleton("default", "next/head")),
+/******/ 			"webpack/sharing/consume/default/next/dynamic": () => (loadSingleton("default", "next/dynamic"))
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
 /******/ 			"components_nav_js": [
-/******/ 				"webpack/sharing/consume/default/next/link",
-/******/ 				"webpack/sharing/consume/default/next/dynamic"
+/******/ 				"webpack/sharing/consume/default/next/link"
 /******/ 			],
 /******/ 			"async-pages_index_js": [
 /******/ 				"webpack/sharing/consume/default/next/head",

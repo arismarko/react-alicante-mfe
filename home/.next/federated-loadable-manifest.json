@@ -2,11 +2,5 @@
   "../async-pages/index.js -> itemcatalogue/title": {
     "id": "../async-pages/index.js -> itemcatalogue/title",
     "files": []
-  },
-  "../components/nav.js -> ./helloWorld": {
-    "id": "../components/nav.js -> ./helloWorld",
-    "files": [
-      "static/chunks/components_helloWorld_js-fed.js"
-    ]
   }
 }

@@ -61,7 +61,7 @@ var init = (shareScope, initScope) => {
 // This exports getters to disallow modifications
 __webpack_require__.d(exports, {
 	get: () => (get),
-	init: () => (init)
+	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"itemcatalogue","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./title":[{"chunks":["static/chunks/components_exposedTitle_js-fed.js"],"sharedModules":[]}],"./itemcatalogue":[{"chunks":["static/chunks/async-pages_itemcatalogue_js-fed.js"],"sharedModules":[]}],"./pages-map":[{"chunks":["static/chunks/pages-map_js-fed.js"],"sharedModules":[]}]},"remoteModules":{}}],"loadable":{}}), hash: ()=>("8159976df5bca818fd1b3496eb7c890f")
 });
 
 /***/ }),

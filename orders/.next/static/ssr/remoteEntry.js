@@ -61,7 +61,7 @@ var init = (shareScope, initScope) => {
 // This exports getters to disallow modifications
 __webpack_require__.d(exports, {
 	get: () => (get),
-	init: () => (init)
+	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"orders","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./orders":[{"chunks":["static/chunks/async-pages_orders_js-fed.js"],"sharedModules":[]}],"./pdp":[{"chunks":["static/chunks/async-pages_p_slug_js-fed.js"],"sharedModules":[]}],"./pages-map":[{"chunks":["static/chunks/pages-map_js-fed.js"],"sharedModules":[]}]},"remoteModules":{}}],"loadable":{}}), hash: ()=>("4ca2b69a0445b24c974a7190a8982003")
 });
 
 /***/ }),
@@ -85,6 +85,248 @@ module.exports = require("react");
 
 "use strict";
 module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "assert":
+/*!*************************!*\
+  !*** external "assert" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("assert");
+
+/***/ }),
+
+/***/ "async_hooks":
+/*!******************************!*\
+  !*** external "async_hooks" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("async_hooks");
+
+/***/ }),
+
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "child_process":
+/*!********************************!*\
+  !*** external "child_process" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("child_process");
+
+/***/ }),
+
+/***/ "console":
+/*!**************************!*\
+  !*** external "console" ***!
+  \**************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("console");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "diagnostics_channel":
+/*!**************************************!*\
+  !*** external "diagnostics_channel" ***!
+  \**************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("diagnostics_channel");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "perf_hooks":
+/*!*****************************!*\
+  !*** external "perf_hooks" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("perf_hooks");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "stream/web":
+/*!*****************************!*\
+  !*** external "stream/web" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream/web");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ "tty":
+/*!**********************!*\
+  !*** external "tty" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "util/types":
+/*!*****************************!*\
+  !*** external "util/types" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util/types");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ })
 

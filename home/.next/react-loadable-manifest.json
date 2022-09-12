@@ -1,10 +1,4 @@
 {
-  "../components/nav.js -> ./helloWorld": {
-    "id": "../components/nav.js -> ./helloWorld",
-    "files": [
-      "static/chunks/components_helloWorld_js.js"
-    ]
-  },
   "_app.js -> ../async-pages/_app": {
     "id": "_app.js -> ../async-pages/_app",
     "files": [

@@ -7,18 +7,17 @@ const ItemCatalogue = props => {
   return (
   <div>
     <Head>
-      <title>Item ItemCatalogue</title>
+      <title>Item Catalogue</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <div className="hero">
-      <h1>Item Item Catalogue</h1>
-      <h3 className="title">This is a federated page owned by localhost:3000</h3>
-      <span>
-        {' '}
-        Data from federated <pre>getStaticProps</pre>
-      </span>
-      <br />
+      <h1>Item Catalogue</h1>
+      
+      <p>This is a federated page owned by localhost:3000 Item Catalogue</p> 
+
+        Data from federated getStaticProps
+
       <pre>{JSON.stringify(props, null, 2)}</pre>
     </div>
     <style jsx>{`

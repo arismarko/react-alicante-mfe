@@ -2,11 +2,17 @@ import dynamic from 'next/dynamic';
 const page = import('../async-pages/orders');
 
 const Page = dynamic(() => import('../async-pages/orders'));
-Page.getInitialProps = async ctx => {
-  const getInitialProps = (await page).default?.getInitialProps;
-  if (getInitialProps) {
-    return getInitialProps(ctx);
+
+export const getStaticProps = async ctx => {
+  const { getStaticProps } = (await page);
+
+  console.log(getStaticProps);
+
+  if (getStaticProps) {
+    return getStaticProps(ctx);
+  } else {
+    return {}
   }
-  return {};
 };
+
 export default Page;

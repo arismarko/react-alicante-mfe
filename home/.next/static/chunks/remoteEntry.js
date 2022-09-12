@@ -267,7 +267,7 @@ module.exports = Promise.resolve("itemcatalogue@http://localhost:3000/_next/stat
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "d00761c41a6e0435"; }
+/******/ 		__webpack_require__.h = function() { return "93626beab9f5655c"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1033,8 +1033,8 @@ module.exports = Promise.resolve("itemcatalogue@http://localhost:3000/_next/stat
 /******/ 			"webpack/sharing/consume/default/react?396b": function() { return loadSingletonVersionCheck("default", "react", [,[1,18,0,0,,0],[1,17],[0,16,8,0],1,1]); },
 /******/ 			"webpack/sharing/consume/default/react?3949": function() { return loadSingletonVersionCheck("default", "react", [4,17,0,2]); },
 /******/ 			"webpack/sharing/consume/default/next/link": function() { return loadSingleton("default", "next/link"); },
-/******/ 			"webpack/sharing/consume/default/next/dynamic": function() { return loadSingleton("default", "next/dynamic"); },
-/******/ 			"webpack/sharing/consume/default/next/head": function() { return loadSingleton("default", "next/head"); }
+/******/ 			"webpack/sharing/consume/default/next/head": function() { return loadSingleton("default", "next/head"); },
+/******/ 			"webpack/sharing/consume/default/next/dynamic": function() { return loadSingleton("default", "next/dynamic"); }
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
@@ -1042,8 +1042,7 @@ module.exports = Promise.resolve("itemcatalogue@http://localhost:3000/_next/stat
 /******/ 				"webpack/sharing/consume/default/react?0ac3",
 /******/ 				"webpack/sharing/consume/default/react?396b",
 /******/ 				"webpack/sharing/consume/default/react?3949",
-/******/ 				"webpack/sharing/consume/default/next/link",
-/******/ 				"webpack/sharing/consume/default/next/dynamic"
+/******/ 				"webpack/sharing/consume/default/next/link"
 /******/ 			],
 /******/ 			"async-pages_index_js": [
 /******/ 				"webpack/sharing/consume/default/react?0ac3",
