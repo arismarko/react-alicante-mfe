@@ -24,7 +24,7 @@ module.exports = withFederatedSidecar(
         // Notice shared are NOT eager here.
         requiredVersion: false,
         singleton: true,
-      },
+      }
     },
   },
   {

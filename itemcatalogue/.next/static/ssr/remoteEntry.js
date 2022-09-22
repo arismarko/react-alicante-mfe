@@ -61,7 +61,7 @@ var init = (shareScope, initScope) => {
 // This exports getters to disallow modifications
 __webpack_require__.d(exports, {
 	get: () => (get),
-	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"itemcatalogue","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./title":[{"chunks":["static/chunks/components_exposedTitle_js-fed.js"],"sharedModules":[]}],"./itemcatalogue":[{"chunks":["static/chunks/async-pages_itemcatalogue_js-fed.js"],"sharedModules":[]}],"./pages-map":[{"chunks":["static/chunks/pages-map_js-fed.js"],"sharedModules":[]}]},"remoteModules":{}}],"loadable":{}}), hash: ()=>("8159976df5bca818fd1b3496eb7c890f")
+	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"itemcatalogue","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./title":[{"chunks":["static/chunks/components_exposedTitle_js-fed.js"],"sharedModules":[]}],"./itemcatalogue":[{"chunks":["static/chunks/async-pages_itemcatalogue_js-fed.js"],"sharedModules":[]}],"./pages-map":[{"chunks":["static/chunks/pages-map_js-fed.js"],"sharedModules":[]}]},"remoteModules":{}}],"loadable":{}}), hash: ()=>("a08945502d1f5bb43280561017f651de")
 });
 
 /***/ }),
@@ -568,7 +568,7 @@ module.exports = require("zlib");
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.1", () => (() => (__webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"))), 1);
+/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", () => (() => (__webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"))), 1);
 /******/ 				}
 /******/ 				break;
 /******/ 			}

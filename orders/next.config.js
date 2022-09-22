@@ -25,7 +25,7 @@ module.exports = withFederatedSidecar(
       react: {
         requiredVersion: false,
         singleton: true,
-      },
+      }
     },
   },
   {

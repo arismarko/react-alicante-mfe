@@ -24,6 +24,10 @@ module.exports = withFederatedSidecar(
         requiredVersion: false,
         singleton: true,
       },
+      prisma: {
+        requiredVersion: false,
+        singleton: false,
+      }
     },
   },
   {

@@ -4,5 +4,9 @@
     "files": [
       "static/chunks/async-pages__app_js.js"
     ]
+  },
+  "orders.js -> orders/orders": {
+    "id": "orders.js -> orders/orders",
+    "files": []
   }
 }

@@ -3,10 +3,10 @@ import Nav from '../components/nav';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div style={{border: '20px solid red'}}>
       <Nav />
       <Component {...pageProps} />
-    </>
+    </div>
   );
 }
 

@@ -102,7 +102,7 @@ eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:ap
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.1", () => (() => (__webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"))), 1);
+/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", () => (() => (__webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"))), 1);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -246,7 +246,7 @@ eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:ap
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": () => (loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [7,0,2,0,,"rc",1], () => (() => (__webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js")))))
+/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": () => (loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [6,"https://github","com/module",,"federation/nextjs-ssr","git#main"], () => (() => (__webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js")))))
 /******/ 		};
 /******/ 		var initialConsumes = ["webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js"];
 /******/ 		initialConsumes.forEach((id) => {
@@ -397,7 +397,7 @@ eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:ap
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": () => (loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [7,0,2,0,,"rc",1], () => (() => (__webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js")))))
+/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": () => (loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [6,"https://github","com/module",,"federation/nextjs-ssr","git#main"], () => (() => (__webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js")))))
 /******/ 		};
 /******/ 		var initialConsumes = ["webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js"];
 /******/ 		initialConsumes.forEach((id) => {

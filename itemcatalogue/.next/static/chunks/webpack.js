@@ -180,7 +180,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "b73738887cf9c605"; }
+/******/ 		__webpack_require__.h = function() { return "d48b7f0ceba5c8c5"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -260,19 +260,11 @@
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	!function() {
 /******/ 		var chunkMapping = {
-/******/ 			"webpack_container_remote_home_home": [
-/******/ 				"webpack/container/remote/home/home"
-/******/ 			],
 /******/ 			"webpack_container_remote_home_nav": [
 /******/ 				"webpack/container/remote/home/nav"
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
-/******/ 			"webpack/container/remote/home/home": [
-/******/ 				"default",
-/******/ 				"./home",
-/******/ 				"webpack/container/reference/home"
-/******/ 			],
 /******/ 			"webpack/container/remote/home/nav": [
 /******/ 				"default",
 /******/ 				"./nav",
@@ -1034,7 +1026,7 @@
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(!/^webpack(_container_remote_home_(home|nav)|)$/.test(chunkId)) {
+/******/ 						if(!/^webpack(|_container_remote_home_nav)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
 /******/ 							promises.push(installedChunkData[2] = promise);

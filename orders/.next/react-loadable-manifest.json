@@ -8,5 +8,11 @@
     "files": [
       "static/chunks/async-pages__app_js.js"
     ]
+  },
+  "orders.js -> ../async-pages/orders": {
+    "id": "orders.js -> ../async-pages/orders",
+    "files": [
+      "static/chunks/async-pages_orders_js.js"
+    ]
   }
 }

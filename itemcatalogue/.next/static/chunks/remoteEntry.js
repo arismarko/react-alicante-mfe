@@ -175,7 +175,7 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "320f821c921ad62c"; }
+/******/ 		__webpack_require__.h = function() { return "12151f86d1fce193"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -340,7 +340,7 @@ __webpack_require__.d(exports, {
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.1", function() { return function() { return __webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"); }; }, 1);
+/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", function() { return function() { return __webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"); }; }, 1);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -940,7 +940,6 @@ __webpack_require__.d(exports, {
 /******/ 			"async-pages_itemcatalogue_js": [
 /******/ 				"webpack/sharing/consume/default/react?0ac3",
 /******/ 				"webpack/sharing/consume/default/react?396b",
-/******/ 				"webpack/sharing/consume/default/react?3949",
 /******/ 				"webpack/sharing/consume/default/next/head"
 /******/ 			]
 /******/ 		};

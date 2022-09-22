@@ -175,7 +175,7 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "9ff8680930bb6c62"; }
+/******/ 		__webpack_require__.h = function() { return "32722e3c4540b8ea"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -340,7 +340,7 @@ __webpack_require__.d(exports, {
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.1", function() { return function() { return __webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"); }; }, 1);
+/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", function() { return function() { return __webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"); }; }, 1);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -928,7 +928,6 @@ __webpack_require__.d(exports, {
 /******/ 		var moduleToHandlerMapping = {
 /******/ 			"webpack/sharing/consume/default/react?0ac3": function() { return loadSingleton("default", "react"); },
 /******/ 			"webpack/sharing/consume/default/react?396b": function() { return loadSingletonVersionCheck("default", "react", [,[1,18,0,0,,0],[1,17],[0,16,8,0],1,1]); },
-/******/ 			"webpack/sharing/consume/default/react?3949": function() { return loadSingletonVersionCheck("default", "react", [4,17,0,2]); },
 /******/ 			"webpack/sharing/consume/default/next/head": function() { return loadSingleton("default", "next/head"); }
 /******/ 		};
 /******/ 		// no consumes in initial chunks
@@ -936,7 +935,6 @@ __webpack_require__.d(exports, {
 /******/ 			"async-pages_orders_js": [
 /******/ 				"webpack/sharing/consume/default/react?0ac3",
 /******/ 				"webpack/sharing/consume/default/react?396b",
-/******/ 				"webpack/sharing/consume/default/react?3949",
 /******/ 				"webpack/sharing/consume/default/next/head"
 /******/ 			],
 /******/ 			"async-pages_p_slug_js": [

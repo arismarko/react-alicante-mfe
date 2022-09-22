@@ -1,11 +1,10 @@
-import React from 'react';
 import Head from 'next/head';
-import {PrismaClient} from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
 
 const ItemCatalogue = props => {
   console.log(props);
   return (
-  <div>
+  <div style={{border: '10px solid green'}}>
     <Head>
       <title>Item Catalogue</title>
       <link rel="icon" href="/favicon.ico" />
@@ -40,14 +39,11 @@ const ItemCatalogue = props => {
   </div>
 )};
 
+
 export const getStaticProps = async () => {
   const prisma = new PrismaClient();
+
   const stores = await prisma.store.findMany();
-
-  console.log("tores" +stores);
-
-  // let response = await fetch('https://reqres.in/api/products/3');
-  // let stores = await response.json();
 
   return {
     props: { stores },

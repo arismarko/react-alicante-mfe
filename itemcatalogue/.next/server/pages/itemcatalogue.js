@@ -30,7 +30,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   \"getStaticProps\": () => (/* binding */ getStaticProps)\n/* harmony export */ });\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dynamic */ \"./node_modules/next/dynamic.js\");\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_0__);\n\nconst page = __webpack_require__.e(/*! import() */ \"async-pages_itemcatalogue_js\").then(__webpack_require__.bind(__webpack_require__, /*! ../async-pages/itemcatalogue */ \"./async-pages/itemcatalogue.js\"));\nconst Page = next_dynamic__WEBPACK_IMPORTED_MODULE_0___default()(()=>__webpack_require__.e(/*! import() */ \"async-pages_itemcatalogue_js\").then(__webpack_require__.bind(__webpack_require__, /*! ../async-pages/itemcatalogue */ \"./async-pages/itemcatalogue.js\")), {\n    loadableGenerated: {\n        modules: [\n            \"itemcatalogue.js -> \" + \"../async-pages/itemcatalogue\"\n        ]\n    }\n});\nconst getStaticProps = async (ctx)=>{\n    const { getStaticProps  } = await page;\n    console.log(getStaticProps);\n    if (getStaticProps) {\n        return getStaticProps(ctx);\n    } else {\n        return {};\n    }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Page);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pdGVtY2F0YWxvZ3VlLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBbUM7QUFDbkMsTUFBTUMsSUFBSSxHQUFHLCtMQUFzQztBQUVuRCxNQUFNQyxJQUFJLEdBQUdGLG1EQUFPLENBQUMsSUFBTSwrTEFBc0M7Ozs7OztFQUFDO0FBRTNELE1BQU1HLGNBQWMsR0FBRyxPQUFNQyxHQUFHLEdBQUk7SUFDekMsTUFBTSxFQUFFRCxjQUFjLEdBQUUsR0FBSSxNQUFNRixJQUFJO0lBRXRDSSxPQUFPLENBQUNDLEdBQUcsQ0FBQ0gsY0FBYyxDQUFDLENBQUM7SUFFNUIsSUFBSUEsY0FBYyxFQUFFO1FBQ2xCLE9BQU9BLGNBQWMsQ0FBQ0MsR0FBRyxDQUFDLENBQUM7S0FDNUIsTUFBTTtRQUNMLE9BQU8sRUFBRTtLQUNWO0NBQ0YsQ0FBQztBQUVGLGlFQUFlRixJQUFJLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pdGVtY2F0YWxvZ3VlLy4vcGFnZXMvaXRlbWNhdGFsb2d1ZS5qcz8xZDY2Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBkeW5hbWljIGZyb20gJ25leHQvZHluYW1pYyc7XG5jb25zdCBwYWdlID0gaW1wb3J0KCcuLi9hc3luYy1wYWdlcy9pdGVtY2F0YWxvZ3VlJyk7XG5cbmNvbnN0IFBhZ2UgPSBkeW5hbWljKCgpID0+IGltcG9ydCgnLi4vYXN5bmMtcGFnZXMvaXRlbWNhdGFsb2d1ZScpKTtcblxuZXhwb3J0IGNvbnN0IGdldFN0YXRpY1Byb3BzID0gYXN5bmMgY3R4ID0+IHtcbiAgY29uc3QgeyBnZXRTdGF0aWNQcm9wcyB9ID0gKGF3YWl0IHBhZ2UpO1xuXG4gIGNvbnNvbGUubG9nKGdldFN0YXRpY1Byb3BzKTtcblxuICBpZiAoZ2V0U3RhdGljUHJvcHMpIHtcbiAgICByZXR1cm4gZ2V0U3RhdGljUHJvcHMoY3R4KTtcbiAgfSBlbHNlIHtcbiAgICByZXR1cm4ge31cbiAgfVxufTtcblxuZXhwb3J0IGRlZmF1bHQgUGFnZTtcbiJdLCJuYW1lcyI6WyJkeW5hbWljIiwicGFnZSIsIlBhZ2UiLCJnZXRTdGF0aWNQcm9wcyIsImN0eCIsImNvbnNvbGUiLCJsb2ciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/itemcatalogue.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   \"getStaticProps\": () => (/* binding */ getStaticProps)\n/* harmony export */ });\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dynamic */ \"./node_modules/next/dynamic.js\");\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_0__);\n\nconst page = __webpack_require__.e(/*! import() */ \"async-pages_itemcatalogue_js\").then(__webpack_require__.bind(__webpack_require__, /*! ../async-pages/itemcatalogue */ \"./async-pages/itemcatalogue.js\"));\nconst Page = next_dynamic__WEBPACK_IMPORTED_MODULE_0___default()(()=>__webpack_require__.e(/*! import() */ \"async-pages_itemcatalogue_js\").then(__webpack_require__.bind(__webpack_require__, /*! ../async-pages/itemcatalogue */ \"./async-pages/itemcatalogue.js\")), {\n    loadableGenerated: {\n        modules: [\n            \"itemcatalogue.js -> \" + \"../async-pages/itemcatalogue\"\n        ]\n    }\n});\nasync function getStaticProps(context) {\n    const { getStaticProps  } = await page;\n    console.log(getStaticProps);\n    if (getStaticProps) {\n        const props = await getStaticProps(context);\n        return {\n            props,\n            revalidate: 10\n        };\n    }\n}\n;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Page);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pdGVtY2F0YWxvZ3VlLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBbUM7QUFDbkMsTUFBTUMsSUFBSSxHQUFHLCtMQUFzQztBQUVuRCxNQUFNQyxJQUFJLEdBQUdGLG1EQUFPLENBQUMsSUFBTSwrTEFBc0M7Ozs7OztFQUFDO0FBRTNELGVBQWVHLGNBQWMsQ0FBQ0MsT0FBTyxFQUFFO0lBQzVDLE1BQU0sRUFBRUQsY0FBYyxHQUFFLEdBQUksTUFBTUYsSUFBSTtJQUVwQ0ksT0FBTyxDQUFDQyxHQUFHLENBQUNILGNBQWMsQ0FBQyxDQUFDO0lBRTVCLElBQUlBLGNBQWMsRUFBRTtRQUNsQixNQUFNSSxLQUFLLEdBQUksTUFBTUosY0FBYyxDQUFDQyxPQUFPLENBQUM7UUFFNUMsT0FBTztZQUNMRyxLQUFLO1lBQ0xDLFVBQVUsRUFBRSxFQUFFO1NBQ2YsQ0FBQztLQUNIO0NBQ0o7O0FBRUQsaUVBQWVOLElBQUksRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2l0ZW1jYXRhbG9ndWUvLi9wYWdlcy9pdGVtY2F0YWxvZ3VlLmpzPzFkNjYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGR5bmFtaWMgZnJvbSAnbmV4dC9keW5hbWljJztcbmNvbnN0IHBhZ2UgPSBpbXBvcnQoJy4uL2FzeW5jLXBhZ2VzL2l0ZW1jYXRhbG9ndWUnKTtcblxuY29uc3QgUGFnZSA9IGR5bmFtaWMoKCkgPT4gaW1wb3J0KCcuLi9hc3luYy1wYWdlcy9pdGVtY2F0YWxvZ3VlJykpO1xuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0U3RhdGljUHJvcHMoY29udGV4dCkge1xuICBjb25zdCB7IGdldFN0YXRpY1Byb3BzIH0gPSAoYXdhaXQgcGFnZSk7XG5cbiAgICBjb25zb2xlLmxvZyhnZXRTdGF0aWNQcm9wcyk7XG5cbiAgICBpZiAoZ2V0U3RhdGljUHJvcHMpIHtcbiAgICAgIGNvbnN0IHByb3BzID0gIGF3YWl0IGdldFN0YXRpY1Byb3BzKGNvbnRleHQpO1xuXG4gICAgICByZXR1cm4ge1xuICAgICAgICBwcm9wcyxcbiAgICAgICAgcmV2YWxpZGF0ZTogMTAsXG4gICAgICB9O1xuICAgIH1cbn07XG5cbmV4cG9ydCBkZWZhdWx0IFBhZ2U7XG4iXSwibmFtZXMiOlsiZHluYW1pYyIsInBhZ2UiLCJQYWdlIiwiZ2V0U3RhdGljUHJvcHMiLCJjb250ZXh0IiwiY29uc29sZSIsImxvZyIsInByb3BzIiwicmV2YWxpZGF0ZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/itemcatalogue.js\n");
 
 /***/ }),
 
@@ -44,14 +44,14 @@ eval("module.exports = __webpack_require__(/*! ./dist/shared/lib/dynamic */ \"./
 
 /***/ }),
 
-/***/ "@prisma/client":
-/*!*********************************!*\
-  !*** external "@prisma/client" ***!
-  \*********************************/
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("@prisma/client");
+module.exports = require("events");
 
 /***/ }),
 
@@ -107,6 +107,237 @@ module.exports = require("react");
 
 "use strict";
 module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "assert":
+/*!*************************!*\
+  !*** external "assert" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("assert");
+
+/***/ }),
+
+/***/ "async_hooks":
+/*!******************************!*\
+  !*** external "async_hooks" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("async_hooks");
+
+/***/ }),
+
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "child_process":
+/*!********************************!*\
+  !*** external "child_process" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("child_process");
+
+/***/ }),
+
+/***/ "console":
+/*!**************************!*\
+  !*** external "console" ***!
+  \**************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("console");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "diagnostics_channel":
+/*!**************************************!*\
+  !*** external "diagnostics_channel" ***!
+  \**************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("diagnostics_channel");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "perf_hooks":
+/*!*****************************!*\
+  !*** external "perf_hooks" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("perf_hooks");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "stream/web":
+/*!*****************************!*\
+  !*** external "stream/web" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream/web");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ "tty":
+/*!**********************!*\
+  !*** external "tty" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "util/types":
+/*!*****************************!*\
+  !*** external "util/types" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util/types");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ })
 
