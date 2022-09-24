@@ -3,6 +3,12 @@
     "id": "../async-pages/app.js -> home/nav",
     "files": []
   },
+  "../async-pages/itemcatalogue.js -> ../prisma/generated/client1": {
+    "id": "../async-pages/itemcatalogue.js -> ../prisma/generated/client1",
+    "files": [
+      "static/chunks/prisma_generated_client1_index-browser_js.js"
+    ]
+  },
   "_app.js -> ../async-pages/app": {
     "id": "_app.js -> ../async-pages/app",
     "files": [

@@ -1,1 +1,8 @@
-{}
+{
+  "../async-pages/orders.js -> ../prisma/generated/client2": {
+    "id": "../async-pages/orders.js -> ../prisma/generated/client2",
+    "files": [
+      "static/chunks/prisma_generated_client2_index-browser_js-fed.js"
+    ]
+  }
+}

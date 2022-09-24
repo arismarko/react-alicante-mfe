@@ -23,10 +23,6 @@ module.exports = withFederatedSidecar(
       react: {
         requiredVersion: false,
         singleton: true,
-      },
-      prisma: {
-        requiredVersion: false,
-        singleton: false,
       }
     },
   },

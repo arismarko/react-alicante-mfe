@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import {PrismaClient} from '@prisma/client';
 
 const Orders = props => {
+  console.log(props);
   return (
   <div>
     <Head>
@@ -38,9 +38,8 @@ const Orders = props => {
 )};
 
 export const getStaticProps = async () => {
+  const { PrismaClient } = await import('../prisma/generated/client2');
   const prisma = new PrismaClient();
-
-  console.log(prisma);
 
   const orders = await prisma.Order.findMany();
 

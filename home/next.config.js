@@ -36,9 +36,21 @@ module.exports = withFederatedSidecar(
 )({
   webpack5: true,
   webpack(config, options) {
+    
     config.module.rules.push({
       test: /_app.js/,
       loader: '@module-federation/nextjs-ssr/lib/federation-loader.js',
+    });
+
+    config.externals.unshift(({ context, request }, callback) => {
+      // Work-around for Prisma "Could not open datamodel file"  error
+      if (request === 'prisma/client') {
+        return callback(null, `commonjs ${prismaClientPath}`);
+      }
+      if (request === './runtime' && context === prismaClientPath) {
+        return callback(null, `commonjs ${prismaClientPath}/runtime`);
+      }
+      callback();
     });
 
     return config;

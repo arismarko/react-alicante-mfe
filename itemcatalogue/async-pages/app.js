@@ -7,7 +7,6 @@ const Nav = dynamic(() => {
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Nav />
       <Component {...pageProps} />
     </>
   );

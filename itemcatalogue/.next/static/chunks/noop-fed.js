@@ -9,13 +9,13 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@module-federation/nextjs-ssr/lib/noop.js ***!
-  \****************************************************************/
+/***/ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js":
+/*!*****************************************************************!*\
+  !*** ../node_modules/@module-federation/nextjs-ssr/lib/noop.js ***!
+  \*****************************************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-eval(__webpack_require__.ts("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQG1vZHVsZS1mZWRlcmF0aW9uL25leHRqcy1zc3IvbGliL25vb3AuanMuanMiLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pdGVtY2F0YWxvZ3VlLy4vbm9kZV9tb2R1bGVzL0Btb2R1bGUtZmVkZXJhdGlvbi9uZXh0anMtc3NyL2xpYi9ub29wLmpzPzhlN2IiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSB7fTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/@module-federation/nextjs-ssr/lib/noop.js\n"));
+eval(__webpack_require__.ts("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi4vbm9kZV9tb2R1bGVzL0Btb2R1bGUtZmVkZXJhdGlvbi9uZXh0anMtc3NyL2xpYi9ub29wLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaXRlbWNhdGFsb2d1ZS8uLi9ub2RlX21vZHVsZXMvQG1vZHVsZS1mZWRlcmF0aW9uL25leHRqcy1zc3IvbGliL25vb3AuanM/MDJhNiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHt9O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///../node_modules/@module-federation/nextjs-ssr/lib/noop.js\n"));
 
 /***/ })
 
@@ -81,7 +81,7 @@ eval(__webpack_require__.ts("module.exports = {};\n//# sourceURL=[module]\n//# s
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "12151f86d1fce193"; }
+/******/ 		__webpack_require__.h = function() { return "affd2587f0a37991"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -186,7 +186,7 @@ eval(__webpack_require__.ts("module.exports = {};\n//# sourceURL=[module]\n//# s
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", function() { return function() { return __webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"); }; }, 1);
+/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", function() { return function() { return __webpack_require__(/*! ../node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js"); }; }, 1);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -772,7 +772,7 @@ eval(__webpack_require__.ts("module.exports = {};\n//# sourceURL=[module]\n//# s
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": function() { return loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [6,"https://github","com/module",,"federation/nextjs-ssr","git#main"], function() { return function() { return __webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"); }; }); }
+/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": function() { return loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [6,"https://github","com/module",,"federation/nextjs-ssr","git#main"], function() { return function() { return __webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js"); }; }); }
 /******/ 		};
 /******/ 		var initialConsumes = ["webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js"];
 /******/ 		initialConsumes.forEach(function(id) {

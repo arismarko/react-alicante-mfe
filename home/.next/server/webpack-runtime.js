@@ -142,11 +142,19 @@
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	(() => {
 /******/ 		var chunkMapping = {
+/******/ 			"webpack_container_remote_itemcatalogue_itemcatalogue": [
+/******/ 				"webpack/container/remote/itemcatalogue/itemcatalogue"
+/******/ 			],
 /******/ 			"webpack_container_remote_orders_orders": [
 /******/ 				"webpack/container/remote/orders/orders"
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
+/******/ 			"webpack/container/remote/itemcatalogue/itemcatalogue": [
+/******/ 				"default",
+/******/ 				"./itemcatalogue",
+/******/ 				"webpack/container/reference/itemcatalogue"
+/******/ 			],
 /******/ 			"webpack/container/remote/orders/orders": [
 /******/ 				"default",
 /******/ 				"./orders",
@@ -237,6 +245,7 @@
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
+/******/ 					initExternal("webpack/container/reference/itemcatalogue");
 /******/ 					initExternal("webpack/container/reference/orders");
 /******/ 				}
 /******/ 				break;
@@ -287,7 +296,7 @@
 /******/ 		__webpack_require__.f.require = (chunkId, promises) => {
 /******/ 			// "1" is the signal for "already loaded"
 /******/ 			if(!installedChunks[chunkId]) {
-/******/ 				if(!/^webpack(\-runtime|_container_remote_orders_orders)$/.test(chunkId)) {
+/******/ 				if(!/^webpack(_container_remote_(itemcatalogue_itemcatalogue|orders_orders)|\-runtime)$/.test(chunkId)) {
 /******/ 					installChunk(require("./" + __webpack_require__.u(chunkId)));
 /******/ 				} else installedChunks[chunkId] = 1;
 /******/ 			}

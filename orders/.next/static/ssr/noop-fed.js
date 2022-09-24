@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@module-federation/nextjs-ssr/lib/noop.js ***!
-  \****************************************************************/
+/***/ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js":
+/*!*****************************************************************!*\
+  !*** ../node_modules/@module-federation/nextjs-ssr/lib/noop.js ***!
+  \*****************************************************************/
 /***/ ((module) => {
 
-eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQG1vZHVsZS1mZWRlcmF0aW9uL25leHRqcy1zc3IvbGliL25vb3AuanMuanMiLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9vcmRlcnMvLi9ub2RlX21vZHVsZXMvQG1vZHVsZS1mZWRlcmF0aW9uL25leHRqcy1zc3IvbGliL25vb3AuanM/OGU3YiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHt9O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/@module-federation/nextjs-ssr/lib/noop.js\n");
+eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi4vbm9kZV9tb2R1bGVzL0Btb2R1bGUtZmVkZXJhdGlvbi9uZXh0anMtc3NyL2xpYi9ub29wLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vb3JkZXJzLy4uL25vZGVfbW9kdWxlcy9AbW9kdWxlLWZlZGVyYXRpb24vbmV4dGpzLXNzci9saWIvbm9vcC5qcz8wMmE2Il0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0ge307XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///../node_modules/@module-federation/nextjs-ssr/lib/noop.js\n");
 
 /***/ })
 
@@ -102,7 +102,7 @@ eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:ap
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", () => (() => (__webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"))), 1);
+/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", () => (() => (__webpack_require__(/*! ../node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js"))), 1);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -246,7 +246,7 @@ eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:ap
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": () => (loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [6,"https://github","com/module",,"federation/nextjs-ssr","git#main"], () => (() => (__webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js")))))
+/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": () => (loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [6,"https://github","com/module",,"federation/nextjs-ssr","git#main"], () => (() => (__webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js")))))
 /******/ 		};
 /******/ 		var initialConsumes = ["webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js"];
 /******/ 		initialConsumes.forEach((id) => {
@@ -397,7 +397,7 @@ eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:ap
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": () => (loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [6,"https://github","com/module",,"federation/nextjs-ssr","git#main"], () => (() => (__webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js")))))
+/******/ 			"webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js": () => (loadStrictVersionCheckFallback("default", "@module-federation/nextjs-ssr/lib/noop.js", [6,"https://github","com/module",,"federation/nextjs-ssr","git#main"], () => (() => (__webpack_require__(/*! @module-federation/nextjs-ssr/lib/noop.js */ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js")))))
 /******/ 		};
 /******/ 		var initialConsumes = ["webpack/sharing/consume/default/@module-federation/nextjs-ssr/lib/noop.js/@module-federation/nextjs-ssr/lib/noop.js"];
 /******/ 		initialConsumes.forEach((id) => {

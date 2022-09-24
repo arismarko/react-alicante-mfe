@@ -180,7 +180,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "ccfc170083596611"; }
+/******/ 		__webpack_require__.h = function() { return "302c034473813d92"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -260,11 +260,19 @@
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	!function() {
 /******/ 		var chunkMapping = {
+/******/ 			"webpack_container_remote_itemcatalogue_itemcatalogue": [
+/******/ 				"webpack/container/remote/itemcatalogue/itemcatalogue"
+/******/ 			],
 /******/ 			"webpack_container_remote_orders_orders": [
 /******/ 				"webpack/container/remote/orders/orders"
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
+/******/ 			"webpack/container/remote/itemcatalogue/itemcatalogue": [
+/******/ 				"default",
+/******/ 				"./itemcatalogue",
+/******/ 				"webpack/container/reference/itemcatalogue"
+/******/ 			],
 /******/ 			"webpack/container/remote/orders/orders": [
 /******/ 				"default",
 /******/ 				"./orders",
@@ -361,6 +369,7 @@
 /******/ 			switch(name) {
 /******/ 				case "default": {
 /******/ 					register("react", "17.0.2", function() { return function() { return __webpack_require__(/*! ./node_modules/react/index.js */ "./node_modules/react/index.js"); }; }, 1);
+/******/ 					initExternal("webpack/container/reference/itemcatalogue");
 /******/ 					initExternal("webpack/container/reference/orders");
 /******/ 				}
 /******/ 				break;
@@ -1026,7 +1035,7 @@
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(!/^webpack(|_container_remote_orders_orders)$/.test(chunkId)) {
+/******/ 						if(!/^webpack(_container_remote_(itemcatalogue_itemcatalogue|orders_orders)|)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
 /******/ 							promises.push(installedChunkData[2] = promise);
