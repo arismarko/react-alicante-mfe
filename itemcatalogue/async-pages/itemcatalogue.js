@@ -1,10 +1,7 @@
-import dynamic from 'next/dynamic'
-
 const ItemCatalogue = props => {
-  console.log(props);
   return (
-    <div className="hero">
-      <h1>Item Catalogue2</h1>
+    <div className="hero" style={{"border": "10px solid green"}}>
+      <h1>MICRO-FRONTEND A - Item Catalogue</h1>
       
       <p>This is a federated page owned by localhost:3000 Item Catalogue</p> 
 
@@ -14,9 +11,7 @@ const ItemCatalogue = props => {
     </div>
 )};
 
-
 export const getStaticProps = async () => {
-  console.log('Hello');
   const { PrismaClient } = await import('../prisma/generated/client1');
   const prisma = new PrismaClient();
   const stores = await prisma.store.findMany();

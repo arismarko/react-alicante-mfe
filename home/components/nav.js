@@ -12,7 +12,7 @@ const Nav = () => (
           <a>Orders</a>
         </Link>
         <Link href="/itemcatalogue">
-          <a>User Profile</a>
+          <a>Item Catalogue</a>
         </Link>
       </li>
     </ul>

@@ -5,12 +5,12 @@ const Orders = props => {
   return (
   <div>
     <Head>
-      <title>Orders2</title>
+      <title>MICRO-FRONTEND B - Orders</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <div className="hero">
-      <h1>Orders2</h1>
+    <div style={{"border": "10px solid pink"}}>
+      <h1>MICRO-FRONTEND B - Orders</h1>
       
       <p>This is a federated page owned by localhost:3002 Orders</p> 
 
@@ -42,9 +42,6 @@ export const getStaticProps = async () => {
   const prisma = new PrismaClient();
 
   const orders = await prisma.Order.findMany();
-
-  console.log(orders);
-
   return {
     props: { orders: orders.map(
       order => {

@@ -267,7 +267,7 @@ module.exports = Promise.resolve("itemcatalogue@http://localhost:3000/_next/stat
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "93626beab9f5655c"; }
+/******/ 		__webpack_require__.h = function() { return "9b06fc2faac74a47"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

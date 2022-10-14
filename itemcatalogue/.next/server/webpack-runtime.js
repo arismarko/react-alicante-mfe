@@ -142,11 +142,19 @@
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	(() => {
 /******/ 		var chunkMapping = {
+/******/ 			"webpack_container_remote_home_home": [
+/******/ 				"webpack/container/remote/home/home"
+/******/ 			],
 /******/ 			"webpack_container_remote_home_nav": [
 /******/ 				"webpack/container/remote/home/nav"
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
+/******/ 			"webpack/container/remote/home/home": [
+/******/ 				"default",
+/******/ 				"./home",
+/******/ 				"webpack/container/reference/home"
+/******/ 			],
 /******/ 			"webpack/container/remote/home/nav": [
 /******/ 				"default",
 /******/ 				"./nav",
@@ -287,7 +295,7 @@
 /******/ 		__webpack_require__.f.require = (chunkId, promises) => {
 /******/ 			// "1" is the signal for "already loaded"
 /******/ 			if(!installedChunks[chunkId]) {
-/******/ 				if(!/^webpack(\-runtime|_container_remote_home_nav)$/.test(chunkId)) {
+/******/ 				if(!/^webpack(_container_remote_home_(home|nav)|\-runtime)$/.test(chunkId)) {
 /******/ 					installChunk(require("./" + __webpack_require__.u(chunkId)));
 /******/ 				} else installedChunks[chunkId] = 1;
 /******/ 			}

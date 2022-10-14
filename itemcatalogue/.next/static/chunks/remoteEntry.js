@@ -175,7 +175,7 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "affd2587f0a37991"; }
+/******/ 		__webpack_require__.h = function() { return "931e04270ce15d08"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -927,8 +927,7 @@ __webpack_require__.d(exports, {
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
 /******/ 			"webpack/sharing/consume/default/react?0ac3": function() { return loadSingleton("default", "react"); },
-/******/ 			"webpack/sharing/consume/default/react?3949": function() { return loadSingletonVersionCheck("default", "react", [4,17,0,2]); },
-/******/ 			"webpack/sharing/consume/default/next/dynamic": function() { return loadSingleton("default", "next/dynamic"); }
+/******/ 			"webpack/sharing/consume/default/react?3949": function() { return loadSingletonVersionCheck("default", "react", [4,17,0,2]); }
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
@@ -937,8 +936,7 @@ __webpack_require__.d(exports, {
 /******/ 				"webpack/sharing/consume/default/react?3949"
 /******/ 			],
 /******/ 			"async-pages_itemcatalogue_js": [
-/******/ 				"webpack/sharing/consume/default/react?0ac3",
-/******/ 				"webpack/sharing/consume/default/next/dynamic"
+/******/ 				"webpack/sharing/consume/default/react?0ac3"
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.consumes = function(chunkId, promises) {

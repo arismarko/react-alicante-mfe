@@ -61,7 +61,7 @@ var init = (shareScope, initScope) => {
 // This exports getters to disallow modifications
 __webpack_require__.d(exports, {
 	get: () => (get),
-	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"home","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./nav":[{"chunks":["static/chunks/components_nav_js-fed.js"],"sharedModules":[]}],"./home":[{"chunks":["static/chunks/async-pages_index_js-fed.js"],"sharedModules":[]}],"./pages-map":[{"chunks":["static/chunks/pages-map_js-fed.js"],"sharedModules":[]}]},"remoteModules":{"itemcatalogue/title":"webpack/container/remote/itemcatalogue/title"}}],"loadable":{"../async-pages/index.js -> itemcatalogue/title":{"id":"../async-pages/index.js -> itemcatalogue/title","files":[]}}}), hash: ()=>("d49a9f37f013287bdf9d9962886ec744")
+	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"home","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./nav":[{"chunks":["static/chunks/components_nav_js-fed.js"],"sharedModules":[]}],"./home":[{"chunks":["static/chunks/async-pages_index_js-fed.js"],"sharedModules":[]}],"./pages-map":[{"chunks":["static/chunks/pages-map_js-fed.js"],"sharedModules":[]}]},"remoteModules":{"itemcatalogue/title":"webpack/container/remote/itemcatalogue/title"}}],"loadable":{"../async-pages/index.js -> itemcatalogue/title":{"id":"../async-pages/index.js -> itemcatalogue/title","files":[]}}}), hash: ()=>("e7ef3aacc18b266864350e51903412e4")
 });
 
 /***/ }),

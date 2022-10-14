@@ -3,22 +3,10 @@
     "id": "../async-pages/_app.js -> home/nav",
     "files": []
   },
-  "../async-pages/orders.js -> ../prisma/generated/client2": {
-    "id": "../async-pages/orders.js -> ../prisma/generated/client2",
-    "files": [
-      "static/chunks/prisma_generated_client2_index-browser_js.js"
-    ]
-  },
   "_app.js -> ../async-pages/_app": {
     "id": "_app.js -> ../async-pages/_app",
     "files": [
       "static/chunks/async-pages__app_js.js"
-    ]
-  },
-  "orders.js -> ../async-pages/orders": {
-    "id": "orders.js -> ../async-pages/orders",
-    "files": [
-      "static/chunks/async-pages_orders_js.js"
     ]
   }
 }

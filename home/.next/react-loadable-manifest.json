@@ -5,6 +5,18 @@
       "static/chunks/async-pages__app_js.js"
     ]
   },
+  "index.js -> ./itemcatalogue": {
+    "id": "index.js -> ./itemcatalogue",
+    "files": [
+      "static/chunks/pages_itemcatalogue_js.js"
+    ]
+  },
+  "index.js -> ./orders": {
+    "id": "index.js -> ./orders",
+    "files": [
+      "static/chunks/pages_orders_js.js"
+    ]
+  },
   "itemcatalogue.js -> itemcatalogue/itemcatalogue": {
     "id": "itemcatalogue.js -> itemcatalogue/itemcatalogue",
     "files": []
